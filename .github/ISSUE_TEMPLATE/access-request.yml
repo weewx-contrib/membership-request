@@ -1,0 +1,37 @@
+name: Access Request
+description: Request we add you to this github organization
+title: "Access Request for user: "
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this request.
+        We need some information in order to give you write access.
+
+        Reminder - you need to be specifically added in order to
+          create repos here, but 'read' access is available to
+          all github users.
+
+  - type: input
+    id: github_username
+    attributes:
+      label: Github Username (ie, my_username_here)
+      placeholder: my_username_here
+    validations:
+      required: false
+
+  - type: input
+    id: github_url
+    attributes:
+      label: Github URL (ie, https://github.com/my_username_here)
+      placeholder: https://github.com/my_username_here
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        Reminder - we are all volunteers here, so your request
+               might take a little time for it to be processed.
+
