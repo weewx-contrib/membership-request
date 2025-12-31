@@ -11,7 +11,7 @@ This is solely so we don't become a world-writable github location that can be s
 * submit the issue
 
 ### What To Expect
-We'll get notified when a new request is made and will get to it hopefully pretty quickly.
+We'll get notified when a new request is made and will get to it hopefully pretty quickly and send you a 'github invitation' you will need to respond to by clicking on the link in the email.
 
 In the meantime, please read the [https://github.com/weewx-contrib/README-FIRST](README-FIRST) information which has the rules of the road and the like.
 
